@@ -109,18 +109,43 @@ a {
   justify-content: center;
   background-color: rgb(255, 225, 0);
   gap: 52px;
+  font-size: 20px;
   
 }
 
 .info {
-  max-width: 200px;
+  max-width: 210px;
   padding: 20px;
   flex: 1;
-  text-align: center; 
+  
   }
 
 
 .o-ren, .bill {
   height: 225px;
   width: 210px;
+}
+
+.sub-middle {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  color:  rgb(255, 225, 0);
+  padding: 100px;
+  justify-content: center; 
+  align-items: center;
+  
+  
+}
+
+.quote-text {
+  font-size: 40px;
+  width: 800px;
+  margin:0 auto;
+}
+
+.sub-middle .quote-author {
+  font-size: 30px;
+  margin-left: 300px;
+  margin-top: 10px;
 }
