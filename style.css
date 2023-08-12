@@ -16,7 +16,7 @@ body {
 
 .header {
   display: flex;
-  flex-wrap: wrap;
+ 
   background-color: #1f2937;
   justify-content: space-around;
   align-items: center;
@@ -42,7 +42,7 @@ a {
 
 .sub-header {
   display: flex;
-  flex-wrap: wrap;
+  
   background-color: #1f2937;
   color:  rgb(255, 225, 0);
   justify-content: center;
@@ -105,7 +105,7 @@ a {
 
 .middle {
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: center;
   background-color: rgb(255, 225, 0);
   gap: 52px;
@@ -116,7 +116,7 @@ a {
 .info {
   max-width: 210px;
   padding: 20px;
-  flex: 1;
+  
   
   }
 
