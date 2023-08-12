@@ -6,7 +6,7 @@
 body {
   display: flex;
   flex-direction: column;
-
+  font-family: 'Anton', sans-serif;
 }
 
 .header img {
@@ -30,12 +30,61 @@ ul {
   padding: 0;
   gap: 16px
   
-  
 }
 
 a {
-  color: yellow;
+  color: rgb(255, 225, 0);
   text-decoration: none;
   font-size: 24px;
   
+}
+
+.sub-header {
+  display: flex;
+  background-color: #1f2937;
+  color:  rgb(255, 225, 0);
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  padding: 60px;
+}
+
+.sub-header h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.sub-header p {
+  margin-bottom: 10px;
+}
+
+.sub-header button {
+  padding: 10px 30px;
+  background-color: #1f2937;
+  font-weight: bold;
+  font-size: 50px;
+  color: #1f2937;
+  border-radius: 10px;
+  border-color:   rgb(255, 225, 0);
+  border-width: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  
+}
+.sub-header button:hover {
+  
+  background-color:  rgb(255, 225, 0);
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+}
+.sub-header img{
+  width: 450px;
+  height: 250px;
+  
+}
+
+.sub-header-left {
+  width: 400px;
 }
