@@ -68,7 +68,7 @@ a {
   border-color:   rgb(255, 225, 0);
   border-width: 5px;
   cursor: pointer;
-  transition: background-color 0.3s
+  transition: background-color 0.3s;
   font-family: 'Anton', sans-serif;
   letter-spacing: 2px;
   
@@ -78,6 +78,7 @@ a {
   background-color:  rgb(255, 225, 0);
   font-family: 'Anton', sans-serif;
   letter-spacing: 2px;
+  
 }
 .sub-header img{
   width: 450px;
