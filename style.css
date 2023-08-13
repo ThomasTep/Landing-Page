@@ -1,9 +1,10 @@
 
 
 html, body {
-width: 100%;
 margin: 0;
 padding: 0;
+width: 100vw;
+height: 100vw;
 }
 
 body {
@@ -19,7 +20,8 @@ body {
 
 .header {
   display: flex;
-  width: 100%;
+  width: 100vw;
+height: 100vw;
   background-color: #1f2937;
   justify-content: space-around;
   align-items: center;
@@ -45,7 +47,8 @@ a {
 
 .sub-header {
   display: flex;
-  width: 100%;
+  width: 100vw;
+height: 100vw;
   background-color: #1f2937;
   color:  rgb(255, 225, 0);
   justify-content: center;
@@ -108,7 +111,8 @@ a {
 
 .middle {
   display: flex;
-  width: 100%;
+  width: 100vw;
+height: 100vw;
   justify-content: center;
   background-color: rgb(255, 225, 0);
   gap: 52px;
@@ -137,7 +141,8 @@ a {
   padding: 100px;
   justify-content: center; 
   align-items: center;
-  width: 100%;
+  width: 100vw;
+height: 100vw;
   
 }
 
