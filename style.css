@@ -4,8 +4,6 @@
 }
 
 
-
-
 body {
   display: flex;
   flex-direction: column;
@@ -15,12 +13,13 @@ body {
 
 .header img {
   width: 150px;
+  border-radius: 100px;
 }
 
 
 .header {
   display: flex;
-  
+  flex-wrap: wrap;
   background-color: #1f2937;
   justify-content: space-around;
   align-items: center;
@@ -89,6 +88,7 @@ a {
 .sub-header img{
   width: 450px;
   height: 250px;
+  border-radius: 20px;
   
 }
 
@@ -117,6 +117,9 @@ a {
   
 }
 
+.middle img {
+  border-radius: 20px;
+}
 .info {
   max-width: 210px;
   padding: 20px;
@@ -154,7 +157,61 @@ a {
   margin-top: 10px;
 }
 
-@media only screen and  (max-width: 600px) {
+.footer-container {
+  background-color:  rgb(255, 225, 0);
+  display: flex;
+  flex-direction: column;
+
+  
+  
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color:  #1f2937;
+  gap:10%;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  color:  rgb(255, 225, 0); 
+  margin-left:8%;
+  margin-right:8%;
+  margin-top:2%;
+  margin-bottom:2%;
+  font-size: 20px;
+  
+  
+  
+}
+
+.footer h3 {
+  font-size: 30px;
+}
+
+.footer button {
+  padding: 10px 30px;
+  background-color: #1f2937;
+  font-weight: bold;
+  font-size: 50px;
+  color: #1f2937;
+  border-radius: 10px;
+  border-color:   rgb(255, 225, 0);
+  border-width: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  
+}
+.footer button:hover {
+  
+  background-color:  rgb(255, 225, 0);
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  
+}
+
+@media only screen and (max-width: 600px) {
   .wrapper-main {
     width: 100%;
        
@@ -170,6 +227,11 @@ a {
     
   }
   
+  .sub-header button {
+    
+    background-color:   rgb(255, 225, 0);
+    
+  }
   .sub-header-left {
     width: 400px;
   }
@@ -183,5 +245,41 @@ a {
     font-size: 20px;
     margin-left: 200px;
     margin-top: 10px;
+  }
+  .header img {
+    width: 30%;
+    
+  }
+
+  .footer {
+    margin-left:0%;
+  margin-right:0%;
+  margin-top:5%;
+  margin-bottom:5%;
+  }
+
+  .footer button {
+    background-color:   rgb(255, 225, 0);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper-main {
+    width: 100%;
+       
+  }
+
+  .sub-header button {
+    
+    background-color:   rgb(255, 225, 0);
+    
+  }
+  .quote-text {
+    
+    width: 80%;
+   
+  }
+  .footer button {
+    background-color:   rgb(255, 225, 0);
   }
 }
