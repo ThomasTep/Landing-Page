@@ -1,12 +1,16 @@
 * {
-  margin:0;
-  padding:0;
+  padding: 0;
+  margin: 0;
 }
+
+
+
 
 body {
   display: flex;
   flex-direction: column;
   font-family: 'Anton', sans-serif;
+  
 }
 
 .header img {
@@ -16,7 +20,7 @@ body {
 
 .header {
   display: flex;
- 
+  
   background-color: #1f2937;
   justify-content: space-around;
   align-items: center;
@@ -42,7 +46,7 @@ a {
 
 .sub-header {
   display: flex;
-  
+  flex-wrap: wrap;
   background-color: #1f2937;
   color:  rgb(255, 225, 0);
   justify-content: center;
@@ -105,7 +109,7 @@ a {
 
 .middle {
   display: flex;
-  
+  flex-wrap: wrap;
   justify-content: center;
   background-color: rgb(255, 225, 0);
   gap: 52px;
@@ -148,4 +152,36 @@ a {
   font-size: 30px;
   margin-left: 300px;
   margin-top: 10px;
+}
+
+@media only screen and  (max-width: 600px) {
+  .wrapper-main {
+    width: 100%;
+       
+  }
+  .quote-text {
+    font-size: 30px;
+    width: 80%;
+   
+  }
+  .sub-header img{
+    width: 400px;
+    height: 250px;
+    
+  }
+  
+  .sub-header-left {
+    width: 400px;
+  }
+  .sub-middle {
+    padding: 30px;
+    justify-content: center; 
+    align-items: center;
+  
+  }
+  .sub-middle .quote-author {
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 10px;
+  }
 }
