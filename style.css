@@ -14,6 +14,7 @@ body {
 .header img {
   width: 150px;
   border-radius: 100px;
+  margin-bottom: 20px;
 }
 
 
@@ -50,7 +51,7 @@ a {
   color:  rgb(255, 225, 0);
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  gap: 100px;
   padding: 60px;
 }
 
@@ -100,7 +101,7 @@ a {
   display: flex;
   justify-content:center;
   font-size:50px;
-  padding: 30px;
+  padding: 20px;
   font-weight: bold;
   letter-spacing: 2px;
   background-color: rgb(255, 225, 0);
@@ -112,7 +113,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   background-color: rgb(255, 225, 0);
-  gap: 52px;
+  gap: 10px;
   font-size: 20px;
   
 }
@@ -130,7 +131,7 @@ a {
 
 .o-ren, .bill {
   height: 225px;
-  width: 210px;
+  width: 190px;
 }
 
 .sub-middle {
@@ -221,6 +222,10 @@ a {
     width: 80%;
    
   }
+
+  .sub-header {
+    gap:40px;
+  }
   .sub-header img{
     width: 400px;
     height: 250px;
@@ -263,7 +268,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 601px) {
   .wrapper-main {
     width: 100%;
        
